@@ -9,7 +9,6 @@ const threeMonthsBack = 3
 const twoMonthsBack = 2
 const oneMonthBack = 1
 const dateThreeMonthsBack = moment().subtract(threeMonthsBack, 'month').format(dateFormat)
-console.log(dateThreeMonthsBack)
 
 const calculatePoinstPerTransaction = (amount) => {
     let points = 0;
